@@ -1,0 +1,91 @@
+@import '../../breakpoints/breakpoints';
+@import '../../colors/colors';
+@import '../../fonts/fonts';
+@import '../../mixins/mixins';
+@import '../../spacing/spacing';
+
+.contact-hero {
+    @include createDefaultContainer(100%, 65vh);
+    padding:  $padding-lg;
+    background-color: $white;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+    }
+
+    .contact-hero-inner {
+        @include centerInnerContainer(100%, 65vh);
+        padding-top: 20px;
+        position: relative;
+        @include gridContainer(1, 2);
+
+        .vedio {
+            width: 110px;
+            height: 110px;
+            position: absolute;
+            right: 20px;
+            top: 50px;
+
+            @media screen and (max-width: $breakpoint-md) {
+                position: relative;
+                top: 0;
+                right: 0;
+                width: 80px;
+                height: 80px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .up {
+
+            .left {
+
+                .header-one {
+                    font-family: $primary-font;
+                    font-size: 75px;
+
+                    @media screen and (max-width: $breakpoint-lg) {
+                        font-size: 50px;
+                    }
+                    @media screen and (max-width: $breakpoint-sm) {
+                        font-size: 35px;
+                    }
+                }
+            }
+
+            .right {
+                @include flexContainer(center, space-between);
+
+                .header-two {
+                    font-family: $primary-font;
+                    font-size: 75px;
+
+                    @media screen and (max-width: $breakpoint-lg) {
+                        font-size: 50px;
+                    }
+                    @media screen and (max-width: $breakpoint-sm) {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+
+        .down {
+
+            .txt {
+                font-family: $primary-font;
+                color: $gray;
+                font-weight: normal;
+                font-style: italic;
+                font-size: 25px;
+
+                @media screen and (max-width: $breakpoint-lg) {
+                    font-size: 20px;
+                }
+                @media screen and (max-width: $breakpoint-sm) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

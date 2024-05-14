@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.contact-hero {
+  width: 100%;
+  min-height: 65vh;
+  padding: 0 1.5%;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .contact-hero {
+    padding: 0 3%;
+  }
+}
+.contact-hero .contact-hero-inner {
+  max-width: 100%;
+  min-height: 65vh;
+  margin: 0 auto;
+  padding-top: 20px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.contact-hero .contact-hero-inner .vedio {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .contact-hero .contact-hero-inner .vedio {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+}
+.contact-hero .contact-hero-inner .up .left .header-one {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 75px;
+}
+@media screen and (max-width: 992px) {
+  .contact-hero .contact-hero-inner .up .left .header-one {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contact-hero .contact-hero-inner .up .left .header-one {
+    font-size: 35px;
+  }
+}
+.contact-hero .contact-hero-inner .up .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-hero .contact-hero-inner .up .right .header-two {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 75px;
+}
+@media screen and (max-width: 992px) {
+  .contact-hero .contact-hero-inner .up .right .header-two {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contact-hero .contact-hero-inner .up .right .header-two {
+    font-size: 35px;
+  }
+}
+.contact-hero .contact-hero-inner .down .txt {
+  font-family: "YgroSansBeta-Medium";
+  color: rgb(196, 196, 196);
+  font-weight: normal;
+  font-style: italic;
+  font-size: 25px;
+}
+@media screen and (max-width: 992px) {
+  .contact-hero .contact-hero-inner .down .txt {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contact-hero .contact-hero-inner .down .txt {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=contact-hero.css.map */

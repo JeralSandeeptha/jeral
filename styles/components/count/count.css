@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.count {
+  width: 100%;
+  min-height: 20vh;
+  padding: 0 1.5%;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .count {
+    padding: 0 3%;
+  }
+}
+.count .count-inner {
+  max-width: 100%;
+  min-height: 20vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+@media screen and (max-width: 992px) {
+  .count .count-inner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+.count .count-inner .left {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.count .count-inner .left .project-count {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 200px;
+}
+@media screen and (max-width: 992px) {
+  .count .count-inner .left .project-count {
+    font-size: 150px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .count .count-inner .left .project-count {
+    font-size: 100px;
+  }
+}
+.count .count-inner .left .project-title {
+  font-size: 20px;
+  font-family: "YgroSansBeta-Medium";
+  color: rgb(196, 196, 196);
+  font-weight: normal;
+}
+@media screen and (max-width: 576px) {
+  .count .count-inner .left .project-title {
+    font-size: 16px;
+  }
+}
+.count .count-inner .right {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.count .count-inner .right .experience-count {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 200px;
+}
+@media screen and (max-width: 992px) {
+  .count .count-inner .right .experience-count {
+    font-size: 150px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .count .count-inner .right .experience-count {
+    font-size: 100px;
+  }
+}
+.count .count-inner .right .experience-title {
+  font-size: 20px;
+  font-family: "YgroSansBeta-Medium";
+  color: rgb(196, 196, 196);
+  font-weight: normal;
+}
+@media screen and (max-width: 576px) {
+  .count .count-inner .right .experience-title {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=count.css.map */

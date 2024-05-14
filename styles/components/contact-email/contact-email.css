@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.contact-email {
+  width: 100%;
+  min-height: 30vh;
+  padding: 0 1.5%;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .contact-email {
+    padding: 0 3%;
+  }
+}
+.contact-email .contact-email-inner {
+  max-width: 100%;
+  min-height: 30vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-email .contact-email-inner .email {
+  text-align: center;
+  font-family: "YgroSansBeta-Medium";
+  font-size: 50px;
+}
+@media screen and (max-width: 992px) {
+  .contact-email .contact-email-inner .email {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-email .contact-email-inner .email {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contact-email .contact-email-inner .email {
+    font-size: 20px;
+  }
+}
+.contact-email .contact-email-inner .email a {
+  color: #000000;
+}/*# sourceMappingURL=contact-email.css.map */
