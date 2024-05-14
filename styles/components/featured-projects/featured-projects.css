@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.featured {
+  width: 100%;
+  min-height: 90vh;
+  padding: 0 1.5%;
+  padding-top: 50px;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .featured {
+    padding: 0 3%;
+    margin-top: 30px;
+  }
+}
+.featured .featured-inner {
+  max-width: 100%;
+  min-height: 90vh;
+  margin: 0 auto;
+}
+.featured .featured-inner .feature-header {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 60px;
+}
+@media screen and (max-width: 576px) {
+  .featured .featured-inner .feature-header {
+    font-size: 35px;
+  }
+}
+.featured .featured-inner .featured-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 15px;
+  padding: 20px 0;
+}
+@media screen and (max-width: 768px) {
+  .featured .featured-inner .featured-projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+.featured .featured-inner .featured-projects .project {
+  width: 100%;
+  height: 60vh;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.featured .featured-inner .featured-projects .project:hover {
+  opacity: 0.5;
+}
+.featured .featured-inner .featured-projects .project:nth-child(1) {
+  background-image: url("../../../assets/images/featured-proj-petunia-540.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.featured .featured-inner .featured-projects .project:nth-child(2) {
+  background-image: url("../../../assets/images/featured-proj-franz.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.featured .featured-inner .featured-projects .project:nth-child(3) {
+  background-image: url("../../../assets/images/featured-clementine.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.featured .featured-inner .featured-projects .project .project-title {
+  font-family: "YgroSansBeta-Medium";
+  color: #ffffff;
+  font-weight: normal;
+}
+.featured .featured-inner .featured-projects .project .project-name {
+  font-family: "YgroSansBeta-Medium";
+  color: #ffffff;
+  font-weight: normal;
+}/*# sourceMappingURL=featured-projects.css.map */

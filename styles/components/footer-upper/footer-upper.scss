@@ -1,0 +1,77 @@
+@import '../../mixins/mixins';
+@import '../../breakpoints/breakpoints';
+@import '../../fonts/fonts';
+@import '../../colors/colors';
+@import '../../spacing/spacing';
+
+.footer-upper {
+    @include createDefaultContainer(100%, 50vh);
+    padding: $padding-lg;
+    background-color: $black;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+    }
+
+    @media screen and (max-width: $breakpoint-md) {
+        padding-bottom: 30px;
+    }
+
+    .footer-upper-inner {
+        @include centerInnerContainer(100%, 50vh);
+        @include flexContainer(flex-start, space-between);
+        padding-top: 50px;
+
+        @media screen and (max-width: $breakpoint-md) {
+            flex-direction: column;
+        }
+
+        .left {
+
+            .footer-upper-header {
+                color: $dark-gray;
+                font-family: $primary-font;
+                font-weight: normal;
+                font-size: 45px;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: $breakpoint-lg) {
+                    font-size: 30px;
+                }
+                @media screen and (max-width: $breakpoint-sm) {
+                    font-size: 25px;
+                }
+            }
+
+            .footer-upper-description {
+                color: $white;
+                font-family: $primary-font;
+                font-weight: normal;
+                font-size: 45px;
+
+                @media screen and (max-width: $breakpoint-lg) {
+                    font-size: 30px;
+                }
+
+                @media screen and (max-width: $breakpoint-sm) {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .right {
+
+            .location {
+                color: $dark-gray;
+                font-family: $primary-font;
+                font-weight: normal;
+            }
+
+            .country {
+                color: $white;
+                font-family: $primary-font;
+                font-weight: normal;
+            }
+        }
+    }
+}

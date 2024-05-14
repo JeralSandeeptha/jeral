@@ -1,0 +1,109 @@
+@import '../../mixins/mixins';
+@import '../../breakpoints/breakpoints';
+@import '../../fonts/fonts';
+@import '../../colors/colors';
+@import '../../spacing/spacing';
+
+.footer-lower {
+    @include createDefaultContainer(100%, 50vh);
+    padding:  $padding-lg;
+    background-color: $black;
+    
+    @media screen and (max-width: $breakpoint-sm){
+        padding: $padding-sm;
+    }
+
+    .footer-lower-inner {
+        @include centerInnerContainer(100%, 50vh);
+
+        .upper {
+            display: grid;
+            grid-template-columns: 6fr 1fr;
+            height: 40vh;
+
+            @media screen and (max-width: $breakpoint-md) {
+                grid-template-columns: 1fr;
+            }
+
+            .left {
+                margin-bottom: 20px;
+
+                .message-title {
+                    color: $dark-gray;
+                        font-family: $primary-font;
+                        font-weight: normal;
+                        margin-bottom: 10px;
+                        font-size: 18px;
+                }
+
+                .email {
+                    color: $white;
+                        font-family: $primary-font;
+                        font-weight: normal;
+                        font-size: 18px;
+                }
+            }
+
+            .right {
+                @include gridContainer(1, 2);
+                
+                .up {
+                    @include flexContainer(flex-start, flex-start);
+                    flex-direction: column;
+
+                    .social {
+                        color: $white;
+                        font-family: $primary-font;
+                        font-weight: normal;
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                    }
+                }
+
+                .down {
+                    @include flexContainer(flex-start, center);
+                    flex-direction: column;
+
+                    .text {
+                        color: $white;
+                        font-family: $primary-font;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+
+        .downer {
+            @include flexContainer(flex-start, flex-start);
+            gap: 10px;
+            padding: 10px 0;
+            margin-top: 5px;
+
+            @media screen and (max-width: $breakpoint-lg) {
+                flex-direction: column;
+            }
+
+            .copyright {
+                color: $white;
+                font-family: $primary-font;
+                font-weight: normal;
+                font-size: 14px;
+
+                @media screen and (max-width: $breakpoint-sm) {
+                    font-size: 12px;
+                }
+            }
+
+            .dev {
+                color: $dark-gray;
+                font-family: $primary-font;
+                font-weight: normal;
+                font-size: 14px;
+
+                @media screen and (max-width: $breakpoint-sm) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

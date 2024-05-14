@@ -1,0 +1,13 @@
+@import '../../breakpoints/breakpoints';
+@import '../../colors/colors';
+@import '../../fonts/fonts';
+@import '../../mixins/mixins';
+@import '../../spacing/spacing';
+
+.footer-top {
+    @include createDefaultContainer(100%, 100vh);
+    background-image: url('../../../assets/images/office.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
