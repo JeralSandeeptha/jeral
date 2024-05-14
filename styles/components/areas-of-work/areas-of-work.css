@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.areas-of-work {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 1.5%;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .areas-of-work {
+    padding: 0 3%;
+  }
+}
+.areas-of-work .areas-of-work-inner {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.areas-of-work .areas-of-work-inner .aow-header {
+  color: rgb(196, 196, 196);
+  font-size: 20px;
+  font-family: "YgroSansBeta-Medium";
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.areas-of-work .areas-of-work-inner .one, .areas-of-work .areas-of-work-inner .two, .areas-of-work .areas-of-work-inner .three, .areas-of-work .areas-of-work-inner .four {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .areas-of-work .areas-of-work-inner .one, .areas-of-work .areas-of-work-inner .two, .areas-of-work .areas-of-work-inner .three, .areas-of-work .areas-of-work-inner .four {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+.areas-of-work .areas-of-work-inner .one .left, .areas-of-work .areas-of-work-inner .one .right, .areas-of-work .areas-of-work-inner .two .left, .areas-of-work .areas-of-work-inner .two .right, .areas-of-work .areas-of-work-inner .three .left, .areas-of-work .areas-of-work-inner .three .right, .areas-of-work .areas-of-work-inner .four .left, .areas-of-work .areas-of-work-inner .four .right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+@media screen and (max-width: 768px) {
+  .areas-of-work .areas-of-work-inner .one .left, .areas-of-work .areas-of-work-inner .one .right, .areas-of-work .areas-of-work-inner .two .left, .areas-of-work .areas-of-work-inner .two .right, .areas-of-work .areas-of-work-inner .three .left, .areas-of-work .areas-of-work-inner .three .right, .areas-of-work .areas-of-work-inner .four .left, .areas-of-work .areas-of-work-inner .four .right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.areas-of-work .areas-of-work-inner .one .left .content, .areas-of-work .areas-of-work-inner .one .right .content, .areas-of-work .areas-of-work-inner .two .left .content, .areas-of-work .areas-of-work-inner .two .right .content, .areas-of-work .areas-of-work-inner .three .left .content, .areas-of-work .areas-of-work-inner .three .right .content, .areas-of-work .areas-of-work-inner .four .left .content, .areas-of-work .areas-of-work-inner .four .right .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.areas-of-work .areas-of-work-inner .one .left .content h5, .areas-of-work .areas-of-work-inner .one .right .content h5, .areas-of-work .areas-of-work-inner .two .left .content h5, .areas-of-work .areas-of-work-inner .two .right .content h5, .areas-of-work .areas-of-work-inner .three .left .content h5, .areas-of-work .areas-of-work-inner .three .right .content h5, .areas-of-work .areas-of-work-inner .four .left .content h5, .areas-of-work .areas-of-work-inner .four .right .content h5 {
+  color: #000000;
+  font-size: 60px;
+  font-family: "YgroSansBeta-Medium";
+  font-weight: normal;
+}
+@media screen and (max-width: 1200px) {
+  .areas-of-work .areas-of-work-inner .one .left .content h5, .areas-of-work .areas-of-work-inner .one .right .content h5, .areas-of-work .areas-of-work-inner .two .left .content h5, .areas-of-work .areas-of-work-inner .two .right .content h5, .areas-of-work .areas-of-work-inner .three .left .content h5, .areas-of-work .areas-of-work-inner .three .right .content h5, .areas-of-work .areas-of-work-inner .four .left .content h5, .areas-of-work .areas-of-work-inner .four .right .content h5 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .areas-of-work .areas-of-work-inner .one .left .content h5, .areas-of-work .areas-of-work-inner .one .right .content h5, .areas-of-work .areas-of-work-inner .two .left .content h5, .areas-of-work .areas-of-work-inner .two .right .content h5, .areas-of-work .areas-of-work-inner .three .left .content h5, .areas-of-work .areas-of-work-inner .three .right .content h5, .areas-of-work .areas-of-work-inner .four .left .content h5, .areas-of-work .areas-of-work-inner .four .right .content h5 {
+    font-size: 30px;
+  }
+}
+.areas-of-work .areas-of-work-inner .one .left .area-img, .areas-of-work .areas-of-work-inner .one .right .area-img, .areas-of-work .areas-of-work-inner .two .left .area-img, .areas-of-work .areas-of-work-inner .two .right .area-img, .areas-of-work .areas-of-work-inner .three .left .area-img, .areas-of-work .areas-of-work-inner .three .right .area-img, .areas-of-work .areas-of-work-inner .four .left .area-img, .areas-of-work .areas-of-work-inner .four .right .area-img {
+  width: 150px;
+}
+@media screen and (max-width: 1200px) {
+  .areas-of-work .areas-of-work-inner .one .left .area-img, .areas-of-work .areas-of-work-inner .one .right .area-img, .areas-of-work .areas-of-work-inner .two .left .area-img, .areas-of-work .areas-of-work-inner .two .right .area-img, .areas-of-work .areas-of-work-inner .three .left .area-img, .areas-of-work .areas-of-work-inner .three .right .area-img, .areas-of-work .areas-of-work-inner .four .left .area-img, .areas-of-work .areas-of-work-inner .four .right .area-img {
+    width: 125px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .areas-of-work .areas-of-work-inner .one .left .area-img, .areas-of-work .areas-of-work-inner .one .right .area-img, .areas-of-work .areas-of-work-inner .two .left .area-img, .areas-of-work .areas-of-work-inner .two .right .area-img, .areas-of-work .areas-of-work-inner .three .left .area-img, .areas-of-work .areas-of-work-inner .three .right .area-img, .areas-of-work .areas-of-work-inner .four .left .area-img, .areas-of-work .areas-of-work-inner .four .right .area-img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=areas-of-work.css.map */

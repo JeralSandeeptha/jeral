@@ -1,0 +1,24 @@
+@import '../../mixins/mixins';
+@import '../../breakpoints/breakpoints';
+@import '../../fonts/fonts';
+@import '../../colors/colors';
+@import '../../spacing/spacing';
+
+.about-hero-pic {
+    @include createDefaultContainer(100%, 100vh);
+    padding:  $padding-lg;
+    background-color: $white;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+    }
+
+    .about-hero-pic-inner {
+        @include centerInnerContainer(100%, 100vh);
+        background-image: url('../../../assets/images/photo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

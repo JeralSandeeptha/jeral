@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.about-hero-pic {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 1.5%;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .about-hero-pic {
+    padding: 0 3%;
+  }
+}
+.about-hero-pic .about-hero-pic-inner {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-image: url("../../../assets/images/photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=about-hero-pic.css.map */
