@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.elevating {
+  width: 100%;
+  min-height: 60vh;
+  background-color: #ffffff;
+  padding: 0 1.5%;
+}
+@media screen and (max-width: 576px) {
+  .elevating {
+    padding: 0 3%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .elevating {
+    width: 100%;
+    min-height: 40vh;
+  }
+}
+.elevating .elevating-inner {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+@media screen and (max-width: 576px) {
+  .elevating .elevating-inner {
+    width: 100%;
+    min-height: 40vh;
+  }
+}
+.elevating .elevating-inner .para {
+  font-family: "YgroSansBeta-Medium";
+  font-weight: normal;
+  font-size: 40px;
+}
+@media screen and (max-width: 992px) {
+  .elevating .elevating-inner .para {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .elevating .elevating-inner .para {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .elevating .elevating-inner .para {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=elevating-inner.css.map */

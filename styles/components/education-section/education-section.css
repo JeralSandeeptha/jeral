@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.education-section {
+  width: 100%;
+  min-height: 50vh;
+  padding: 0 1.5%;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .education-section {
+    padding: 0 3%;
+  }
+}
+.education-section .education-section-inner {
+  max-width: 100%;
+  min-height: 50vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+@media screen and (max-width: 768px) {
+  .education-section .education-section-inner {
+    grid-template-columns: 1fr;
+  }
+}
+.education-section .education-section-inner .education {
+  background-color: #000000;
+  border-radius: 0.15rem;
+  cursor: pointer;
+  padding: 10px;
+}
+.education-section .education-section-inner .education .name {
+  color: #ffffff;
+  font-family: "YgroSansBeta-Medium";
+  font-weight: normal;
+}
+@media screen and (max-width: 576px) {
+  .education-section .education-section-inner .education .name {
+    font-size: 90%;
+  }
+}
+.education-section .education-section-inner .education .university {
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+}
+@media screen and (max-width: 576px) {
+  .education-section .education-section-inner .education .university {
+    font-size: 90%;
+  }
+}
+.education-section .education-section-inner .education .results {
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+}
+@media screen and (max-width: 576px) {
+  .education-section .education-section-inner .education .results {
+    font-size: 90%;
+  }
+}/*# sourceMappingURL=education-section.css.map */

@@ -1,0 +1,46 @@
+@import '../../breakpoints/breakpoints';
+@import '../../colors/colors';
+@import '../../fonts/fonts';
+@import '../../mixins/mixins';
+@import '../../spacing/spacing';
+
+.elevating {
+    @include createDefaultContainer(100%, 60vh);
+    background-color: $white;
+    padding: $padding-lg;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+    }
+
+    @media screen and (max-width: $breakpoint-sm){
+        @include createDefaultContainer(100%, 40vh);
+    }
+
+    .elevating-inner {
+        @include createDefaultContainer(100%, 60vh);
+        @include flexContainer(flex-end, flex-start);
+        padding-bottom: 50px;
+        padding-top: 50px;
+
+        @media screen and (max-width: $breakpoint-sm){
+            @include createDefaultContainer(100%, 40vh);
+        }
+
+        .para {
+            font-family: $primary-font;
+            font-weight: normal;
+            font-size: 40px;
+
+            @media screen and (max-width: $breakpoint-lg){
+                font-size: 30px;
+            }
+            @media screen and (max-width: $breakpoint-md){
+                font-size: 25px;
+            }
+            @media screen and (max-width: $breakpoint-sm){
+                font-size: 20px;
+            }
+        }
+    }
+}
