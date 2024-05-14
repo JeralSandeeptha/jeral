@@ -1,0 +1,31 @@
+@import '../../mixins/mixins';
+@import '../../breakpoints/breakpoints';
+@import '../../fonts/fonts';
+@import '../../colors/colors';
+@import '../../spacing/spacing';
+
+.header-section {
+    @include createDefaultContainer(100%, 10vh);
+    padding: $padding-lg;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+    }
+
+    .header-section-inner {
+        @include centerInnerContainer(100%, 10vh);
+
+        @media screen and (max-width: $breakpoint-sm) {
+            @include flexContainer(center, flex-start);
+        }
+
+        .title-header {
+            font-family: $primary-font;
+            font-size: 40px;
+
+            @media screen and (max-width: $breakpoint-sm) {
+                font-size: 25px;
+            }
+        }
+    }
+}

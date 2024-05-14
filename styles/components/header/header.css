@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.header-section {
+  width: 100%;
+  min-height: 10vh;
+  padding: 0 1.5%;
+}
+@media screen and (max-width: 576px) {
+  .header-section {
+    padding: 0 3%;
+  }
+}
+.header-section .header-section-inner {
+  max-width: 100%;
+  min-height: 10vh;
+  margin: 0 auto;
+}
+@media screen and (max-width: 576px) {
+  .header-section .header-section-inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+.header-section .header-section-inner .title-header {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 40px;
+}
+@media screen and (max-width: 576px) {
+  .header-section .header-section-inner .title-header {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=header.css.map */

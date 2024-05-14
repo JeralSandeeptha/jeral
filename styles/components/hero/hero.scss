@@ -1,0 +1,22 @@
+@import '../../mixins/mixins';
+@import '../../spacing/spacing';
+@import '../../breakpoints/breakpoints';
+
+.hero { 
+    @include createDefaultContainer(100%, 75vh);
+    padding: $padding-lg;
+    background-color: $white;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+    }
+
+    .hero-inner {
+        @include centerInnerContainer(100%, 75vh);
+        background-image: url('../../../assets/images/header.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 75vh;
+    }
+}
