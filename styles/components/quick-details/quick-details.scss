@@ -1,0 +1,90 @@
+@import '../../breakpoints/breakpoints';
+@import '../../colors/colors';
+@import '../../fonts/fonts';
+@import '../../mixins/mixins';
+@import '../../spacing/spacing';
+
+.quick-details {
+    @include createDefaultContainer(100%, 20vh);
+    padding: $padding-lg;
+    overflow: hidden;
+    padding-bottom: 20px;
+    background-color: $white;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+        padding-bottom: 20px;
+    }
+
+    .quick-details-inner {
+        @include centerInnerContainer(100%, 20vh);
+        @include gridContainer(2, 1);
+        gap: 50px;
+
+        @media screen and (max-width: $breakpoint-sm) {
+            @include gridContainer(1, 2);
+            gap: 25px;
+        }
+
+        .left {
+            @include flexContainer(flex-start, space-between);
+            gap: 50px;
+
+            @media screen and (max-width: $breakpoint-lg) {
+                flex-direction: column;       
+            }
+
+            @media screen and (max-width: $breakpoint-sm) {
+                @include flexContainer(flex-start, space-evenly);
+                gap: 25px;
+            }
+
+            .detail-box {
+
+                .title {
+                    color: $gray;
+                    font-weight: normal;
+                    font-family: $primary-font;
+                    font-size: 18px;
+                    margin-bottom: 3px;
+                }
+
+                .description {
+                    color: $black;
+                    font-family: $primary-font;
+                }
+            }
+        }
+
+        .right {
+            @include flexContainer(flex-start, space-between);
+            gap: 50px;
+
+            @media screen and (max-width: $breakpoint-lg) {
+                flex-direction: column;    
+                @include flexContainer(flex-end, space-between);   
+            }
+
+            @media screen and (max-width: $breakpoint-sm) {
+                @include flexContainer(flex-start, space-evenly);
+                gap: 25px;
+            }
+
+            .detail-box {
+
+                .title {
+                    color: $gray;
+                    font-weight: normal;
+                    font-family: $primary-font;
+                    font-size: 18px;
+                    margin-bottom: 3px;
+                }
+
+                .description {
+                    color: $black;
+                    font-family: $primary-font;
+                }
+            }
+        }
+    }
+}

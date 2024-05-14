@@ -1,0 +1,342 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.tech-stack {
+  width: 500%;
+  min-height: 100vh;
+  background-color: #000000;
+  position: relative;
+  background-image: url("../../../assets/images/tech-stack.jpg");
+}
+@media screen and (max-width: 768px) {
+  .tech-stack {
+    display: none;
+  }
+}
+.tech-stack .tech-stack-inner {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.tech-stack .tech-stack-inner .bg-header {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  color: #ffffff;
+}
+.tech-stack .tech-stack-inner .stack {
+  width: 100%;
+  height: 100vh;
+}
+.tech-stack .tech-stack-inner .stack1 {
+  background-color: #ffffff;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.tech-stack .tech-stack-inner .stack1 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tech-stack .tech-stack-inner .stack1 .header .stack-header {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 150px;
+}
+.tech-stack .tech-stack-inner .stack1 .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.tech-stack .tech-stack-inner .stack1 .images .hover {
+  opacity: 1;
+}
+.tech-stack .tech-stack-inner .stack1 .images .hover:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.tech-stack .tech-stack-inner .stack1 .images .img1 {
+  background-image: url("../../../assets/images/data-vis.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack1 .images .img2 {
+  background-image: url("../../../assets/images/education.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack1 .images .img3 {
+  background-image: url("../../../assets/images/fitness.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack1 .images .img4 {
+  background-image: url("../../../assets/images/healthcare.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack1 .images .img5 {
+  background-image: url("../../../assets/images/game-dev.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack2 {
+  background-color: #ffffff;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.tech-stack .tech-stack-inner .stack2 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tech-stack .tech-stack-inner .stack2 .header .stack-header {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 150px;
+}
+.tech-stack .tech-stack-inner .stack2 .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.tech-stack .tech-stack-inner .stack2 .images .hover {
+  opacity: 1;
+}
+.tech-stack .tech-stack-inner .stack2 .images .hover:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.tech-stack .tech-stack-inner .stack2 .images .img1 {
+  background-image: url("../../../assets/images/data-vis.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack2 .images .img2 {
+  background-image: url("../../../assets/images/education.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack2 .images .img3 {
+  background-image: url("../../../assets/images/fitness.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack2 .images .img4 {
+  background-image: url("../../../assets/images/healthcare.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack2 .images .img5 {
+  background-image: url("../../../assets/images/game-dev.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack3 {
+  background-color: #ffffff;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.tech-stack .tech-stack-inner .stack3 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tech-stack .tech-stack-inner .stack3 .header .stack-header {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 150px;
+}
+.tech-stack .tech-stack-inner .stack3 .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.tech-stack .tech-stack-inner .stack3 .images .hover {
+  opacity: 1;
+}
+.tech-stack .tech-stack-inner .stack3 .images .hover:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.tech-stack .tech-stack-inner .stack3 .images .img1 {
+  background-image: url("../../../assets/images/data-vis.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack3 .images .img2 {
+  background-image: url("../../../assets/images/education.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack3 .images .img3 {
+  background-image: url("../../../assets/images/office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack3 .images .img4 {
+  background-image: url("../../../assets/images/featured-proj-petunia-540.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack3 .images .img5 {
+  background-image: url("../../../assets/images/featured-proj-franz.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack4 {
+  background-color: #ffffff;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.tech-stack .tech-stack-inner .stack4 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tech-stack .tech-stack-inner .stack4 .header .stack-header {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 150px;
+}
+.tech-stack .tech-stack-inner .stack4 .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tech-stack .tech-stack-inner .stack4 .images .hover {
+  opacity: 1;
+}
+.tech-stack .tech-stack-inner .stack4 .images .hover:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.tech-stack .tech-stack-inner .stack4 .images .img1 {
+  background-image: url("../../../assets/images/data-vis.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack4 .images .img2 {
+  background-image: url("../../../assets/images/education.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack4 .images .img3 {
+  background-image: url("../../../assets/images/fitness.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack4 .images .img4 {
+  background-image: url("../../../assets/images/healthcare.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack4 .images .img5 {
+  background-image: url("../../../assets/images/game-dev.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 {
+  background-color: #ffffff;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: 2fr 1fr 2fr;
+}
+.tech-stack .tech-stack-inner .stack5 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tech-stack .tech-stack-inner .stack5 .header .stack-header {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 150px;
+}
+.tech-stack .tech-stack-inner .stack5 .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.tech-stack .tech-stack-inner .stack5 .images .hover {
+  opacity: 1;
+}
+.tech-stack .tech-stack-inner .stack5 .images .hover:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img1 {
+  background-image: url("../../../assets/images/data-vis.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img2 {
+  background-image: url("../../../assets/images/education.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img3 {
+  background-image: url("../../../assets/images/fitness.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img4 {
+  background-image: url("../../../assets/images/healthcare.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img5 {
+  background-image: url("../../../assets/images/game-dev.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img6 {
+  background-image: url("../../../assets/images/header-mob.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img7 {
+  background-image: url("../../../assets/images/header-mob.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img8 {
+  background-image: url("../../../assets/images/header-mob.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img9 {
+  background-image: url("../../../assets/images/header-mob.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img10 {
+  background-image: url("../../../assets/images/header-mob.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=tech-stack.css.map */

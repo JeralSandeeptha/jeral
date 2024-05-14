@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.quick-details {
+  width: 100%;
+  min-height: 20vh;
+  padding: 0 1.5%;
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .quick-details {
+    padding: 0 3%;
+    padding-bottom: 20px;
+  }
+}
+.quick-details .quick-details-inner {
+  max-width: 100%;
+  min-height: 20vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 50px;
+}
+@media screen and (max-width: 576px) {
+  .quick-details .quick-details-inner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+.quick-details .quick-details-inner .left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+@media screen and (max-width: 992px) {
+  .quick-details .quick-details-inner .left {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .quick-details .quick-details-inner .left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+}
+.quick-details .quick-details-inner .left .detail-box .title {
+  color: rgb(196, 196, 196);
+  font-weight: normal;
+  font-family: "YgroSansBeta-Medium";
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.quick-details .quick-details-inner .left .detail-box .description {
+  color: #000000;
+  font-family: "YgroSansBeta-Medium";
+}
+.quick-details .quick-details-inner .right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+@media screen and (max-width: 992px) {
+  .quick-details .quick-details-inner .right {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 576px) {
+  .quick-details .quick-details-inner .right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+}
+.quick-details .quick-details-inner .right .detail-box .title {
+  color: rgb(196, 196, 196);
+  font-weight: normal;
+  font-family: "YgroSansBeta-Medium";
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.quick-details .quick-details-inner .right .detail-box .description {
+  color: #000000;
+  font-family: "YgroSansBeta-Medium";
+}/*# sourceMappingURL=quick-details.css.map */

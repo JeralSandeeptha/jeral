@@ -1,0 +1,37 @@
+@import '../../mixins/mixins';
+@import '../../spacing/spacing';
+@import '../../breakpoints/breakpoints';
+@import '../../fonts/fonts';
+
+.name-container {
+    @include createDefaultContainer(100%, 20vh);
+    padding: $padding-lg;
+    overflow: hidden;
+    background-color: $white;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+    }
+
+    .name-container-inner {
+        @include centerInnerContainer(100%, 20vh);
+        @include gridContainer(16, 1);
+        
+        .letter {
+            width: 100%;
+            height: 100%;
+            @include centerElement();
+
+            .name {
+                width: 100%;
+                height: 100%;
+                font-size: 150px;
+                font-family: $primary-font;
+
+                @media screen and (max-width: $breakpoint-sm) {
+                    font-size: 100px;
+                }
+            }
+        }
+    }
+}

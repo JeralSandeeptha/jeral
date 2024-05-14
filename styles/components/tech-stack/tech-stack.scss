@@ -1,0 +1,309 @@
+@import '../../mixins/mixins';
+@import '../../breakpoints/breakpoints';
+@import '../../fonts/fonts';
+@import '../../colors/colors';
+@import '../../spacing/spacing';
+
+.tech-stack {
+    width: 500%;
+    min-height: 100vh;
+    background-color: $black;
+    position: relative;
+    background-image: url('../../../assets/images/tech-stack.jpg');
+
+    @media screen and (max-width: $breakpoint-md) {
+        display: none;
+    }
+
+    .tech-stack-inner {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+        // background-color: green;
+
+        .bg-header {
+            position: absolute;
+            transform: translate(-50%, 50%);
+            color: $white;
+        }
+        
+        .stack {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .stack1 {
+            background-color: $white;
+            z-index: 1;
+            display: grid;
+            grid-template-rows: 1fr 2fr;
+
+            .header {
+                @include flexContainer(center, center);
+
+                .stack-header {
+                    font-family: $primary-font;
+                    font-size: 150px;
+                }
+            }
+
+            .images {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+                .hover {
+                    opacity: 1;
+
+                    &:hover {
+                        opacity: 0.9;
+                        cursor: pointer;
+                    }
+                }
+
+                .img1 {
+                    background-image: url('../../../assets/images/data-vis.jpg');
+                    @include adjustImage();
+                }
+                .img2 {
+                    background-image: url('../../../assets/images/education.jpg');
+                    @include adjustImage();
+                }
+                .img3 {
+                    background-image: url('../../../assets/images/fitness.jpg');
+                    @include adjustImage();
+                }
+                .img4 {
+                    background-image: url('../../../assets/images/healthcare.jpg');
+                    @include adjustImage();
+                }
+                .img5 {
+                    background-image: url('../../../assets/images/game-dev.webp');
+                    @include adjustImage();
+                }
+            }
+        }
+
+        .stack2 {
+            background-color: $white;
+            z-index: 1;
+            display: grid;
+            grid-template-rows: 1fr 2fr;
+
+            .header {
+                @include flexContainer(center, center);
+
+                .stack-header {
+                    font-family: $primary-font;
+                    font-size: 150px;
+                }
+            }
+
+            .images {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+                .hover {
+                    opacity: 1;
+
+                    &:hover {
+                        opacity: 0.9;
+                        cursor: pointer;
+                    }
+                }
+
+                .img1 {
+                    background-image: url('../../../assets/images/data-vis.jpg');
+                    @include adjustImage();
+                }
+                .img2 {
+                    background-image: url('../../../assets/images/education.jpg');
+                    @include adjustImage();
+                }
+                .img3 {
+                    background-image: url('../../../assets/images/fitness.jpg');
+                    @include adjustImage();
+                }
+                .img4 {
+                    background-image: url('../../../assets/images/healthcare.jpg');
+                    @include adjustImage();
+                }
+                .img5 {
+                    background-image: url('../../../assets/images/game-dev.webp');
+                    @include adjustImage();
+                }
+            }
+        }
+        .stack3 {
+            background-color: $white;
+            z-index: 1;
+            display: grid;
+            grid-template-rows: 1fr 2fr;
+
+            .header {
+                @include flexContainer(center, center);
+
+                .stack-header {
+                    font-family: $primary-font;
+                    font-size: 150px;
+                }
+            }
+
+            .images {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+                .hover {
+                    opacity: 1;
+
+                    &:hover {
+                        opacity: 0.9;
+                        cursor: pointer;
+                    }
+                }
+
+                .img1 {
+                    background-image: url('../../../assets/images/data-vis.jpg');
+                    @include adjustImage();
+                }
+                .img2 {
+                    background-image: url('../../../assets/images/education.jpg');
+                    @include adjustImage();
+                }
+                .img3 {
+                    background-image: url('../../../assets/images/office.jpg');
+                    @include adjustImage();
+                }
+                .img4 {
+                    background-image: url('../../../assets/images/featured-proj-petunia-540.jpg');
+                    @include adjustImage();
+                }
+                .img5 {
+                    background-image: url('../../../assets/images/featured-proj-franz.jpg');
+                    @include adjustImage();
+                }
+            }
+        }
+        .stack4 {
+            background-color: $white;
+            z-index: 1;
+            display: grid;
+            grid-template-rows: 1fr 2fr;
+
+            .header {
+                @include flexContainer(center, center);
+
+                .stack-header {
+                    font-family: $primary-font;
+                    font-size: 150px;
+                }
+            }
+
+            .images {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
+                .hover {
+                    opacity: 1;
+
+                    &:hover {
+                        opacity: 0.9;
+                        cursor: pointer;
+                    }
+                }
+
+                .img1 {
+                    background-image: url('../../../assets/images/data-vis.jpg');
+                    @include adjustImage();
+                }
+                .img2 {
+                    background-image: url('../../../assets/images/education.jpg');
+                    @include adjustImage();
+                }
+                .img3 {
+                    background-image: url('../../../assets/images/fitness.jpg');
+                    @include adjustImage();
+                }
+                .img4 {
+                    background-image: url('../../../assets/images/healthcare.jpg');
+                    @include adjustImage();
+                }
+                .img5 {
+                    background-image: url('../../../assets/images/game-dev.webp');
+                    @include adjustImage();
+                }
+            }
+        }
+        .stack5 {
+            background-color: $white;
+            z-index: 1;
+            display: grid;
+            grid-template-rows: 2fr 1fr 2fr;
+
+            .header {
+                @include flexContainer(center, center);
+
+                .stack-header {
+                    font-family: $primary-font;
+                    font-size: 150px;
+                }
+            }
+
+            .images {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+
+                .hover {
+                    opacity: 1;
+
+                    &:hover {
+                        opacity: 0.9;
+                        cursor: pointer;
+                    }
+                }
+
+                .img1 {
+                    background-image: url('../../../assets/images/data-vis.jpg');
+                    @include adjustImage();
+                }
+                .img2 {
+                    background-image: url('../../../assets/images/education.jpg');
+                    @include adjustImage();
+                }
+                .img3 {
+                    background-image: url('../../../assets/images/fitness.jpg');
+                    @include adjustImage();
+                }
+                .img4 {
+                    background-image: url('../../../assets/images/healthcare.jpg');
+                    @include adjustImage();
+                }
+                .img5 {
+                    background-image: url('../../../assets/images/game-dev.webp');
+                    @include adjustImage();
+                }
+                .img6 {
+                    background-image: url('../../../assets/images/header-mob.jpg');
+                    @include adjustImage();
+                }
+                .img7 {
+                    background-image: url('../../../assets/images/header-mob.jpg');
+                    @include adjustImage();
+                }
+                .img8 {
+                    background-image: url('../../../assets/images/header-mob.jpg');
+                    @include adjustImage();
+                }
+                .img9 {
+                    background-image: url('../../../assets/images/header-mob.jpg');
+                    @include adjustImage();
+                }
+                .img10 {
+                    background-image: url('../../../assets/images/header-mob.jpg');
+                    @include adjustImage();
+                }
+            }
+        }
+    }
+}
