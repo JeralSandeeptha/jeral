@@ -46,6 +46,7 @@
 .tech-stack .tech-stack-inner .stack1 .images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
 }
 .tech-stack .tech-stack-inner .stack1 .images .hover {
   opacity: 1;
@@ -55,34 +56,39 @@
   cursor: pointer;
 }
 .tech-stack .tech-stack-inner .stack1 .images .img1 {
-  background-image: url("../../../assets/images/data-vis.jpg");
+  background-image: url("../../../assets/icons/java.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack1 .images .img2 {
-  background-image: url("../../../assets/images/education.jpg");
+  background-image: url("../../../assets/icons/javascript.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack1 .images .img3 {
-  background-image: url("../../../assets/images/fitness.jpg");
+  background-image: url("../../../assets/icons/python.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack1 .images .img4 {
-  background-image: url("../../../assets/images/healthcare.jpg");
+  background-image: url("../../../assets/icons/c.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack1 .images .img5 {
-  background-image: url("../../../assets/images/game-dev.webp");
+  background-image: url("../../../assets/icons/php.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack2 {
   background-color: #ffffff;
@@ -111,34 +117,39 @@
   cursor: pointer;
 }
 .tech-stack .tech-stack-inner .stack2 .images .img1 {
-  background-image: url("../../../assets/images/data-vis.jpg");
+  background-image: url("../../../assets/icons/html.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack2 .images .img2 {
-  background-image: url("../../../assets/images/education.jpg");
+  background-image: url("../../../assets/icons/sass.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack2 .images .img3 {
-  background-image: url("../../../assets/images/fitness.jpg");
+  background-image: url("../../../assets/icons/react.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack2 .images .img4 {
-  background-image: url("../../../assets/images/healthcare.jpg");
+  background-image: url("../../../assets/icons/reactnative.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack2 .images .img5 {
-  background-image: url("../../../assets/images/game-dev.webp");
+  background-image: url("../../../assets/icons/nextjs.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack3 {
   background-color: #ffffff;
@@ -158,6 +169,7 @@
 .tech-stack .tech-stack-inner .stack3 .images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
 }
 .tech-stack .tech-stack-inner .stack3 .images .hover {
   opacity: 1;
@@ -167,34 +179,39 @@
   cursor: pointer;
 }
 .tech-stack .tech-stack-inner .stack3 .images .img1 {
-  background-image: url("../../../assets/images/data-vis.jpg");
+  background-image: url("../../../assets/icons/express.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack3 .images .img2 {
-  background-image: url("../../../assets/images/education.jpg");
+  background-image: url("../../../assets/icons/spring.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack3 .images .img3 {
-  background-image: url("../../../assets/images/office.jpg");
+  background-image: url("../../../assets/icons/dotnet.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack3 .images .img4 {
-  background-image: url("../../../assets/images/featured-proj-petunia-540.jpg");
+  background-image: url("../../../assets/icons/django.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack3 .images .img5 {
-  background-image: url("../../../assets/images/featured-proj-franz.jpg");
+  background-image: url("../../../assets/icons/laravel.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack4 {
   background-color: #ffffff;
@@ -223,22 +240,25 @@
   cursor: pointer;
 }
 .tech-stack .tech-stack-inner .stack4 .images .img1 {
-  background-image: url("../../../assets/images/data-vis.jpg");
+  background-image: url("../../../assets/icons/mysql.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack4 .images .img2 {
-  background-image: url("../../../assets/images/education.jpg");
+  background-image: url("../../../assets/icons/mongodb.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack4 .images .img3 {
-  background-image: url("../../../assets/images/fitness.jpg");
+  background-image: url("../../../assets/icons/neo4j.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack4 .images .img4 {
   background-image: url("../../../assets/images/healthcare.jpg");
@@ -280,62 +300,72 @@
   cursor: pointer;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img1 {
-  background-image: url("../../../assets/images/data-vis.jpg");
+  background-image: url("../../../assets/icons/git.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img2 {
-  background-image: url("../../../assets/images/education.jpg");
+  background-image: url("../../../assets/icons/github.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img3 {
-  background-image: url("../../../assets/images/fitness.jpg");
+  background-image: url("../../../assets/icons/docker.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img4 {
-  background-image: url("../../../assets/images/healthcare.jpg");
+  background-image: url("../../../assets/icons/kubernets.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img5 {
-  background-image: url("../../../assets/images/game-dev.webp");
+  background-image: url("../../../assets/icons/figma.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img6 {
-  background-image: url("../../../assets/images/header-mob.jpg");
+  background-image: url("../../../assets/icons/aws.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img7 {
-  background-image: url("../../../assets/images/header-mob.jpg");
+  background-image: url("../../../assets/icons/google.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img8 {
-  background-image: url("../../../assets/images/header-mob.jpg");
+  background-image: url("../../../assets/icons/kafka.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img9 {
-  background-image: url("../../../assets/images/header-mob.jpg");
+  background-image: url("../../../assets/icons/rabbitmq.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img10 {
-  background-image: url("../../../assets/images/header-mob.jpg");
+  background-image: url("../../../assets/icons/sonarqube.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: contain;
 }/*# sourceMappingURL=tech-stack.css.map */

@@ -51,6 +51,7 @@
             .images {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                gap: 5px;
 
                 .hover {
                     opacity: 1;
@@ -62,24 +63,29 @@
                 }
 
                 .img1 {
-                    background-image: url('../../../assets/images/data-vis.jpg');
+                    background-image: url('../../../assets/icons/java.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img2 {
-                    background-image: url('../../../assets/images/education.jpg');
+                    background-image: url('../../../assets/icons/javascript.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img3 {
-                    background-image: url('../../../assets/images/fitness.jpg');
+                    background-image: url('../../../assets/icons/python.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img4 {
-                    background-image: url('../../../assets/images/healthcare.jpg');
+                    background-image: url('../../../assets/icons/c.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img5 {
-                    background-image: url('../../../assets/images/game-dev.webp');
+                    background-image: url('../../../assets/icons/php.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
             }
         }
@@ -113,24 +119,29 @@
                 }
 
                 .img1 {
-                    background-image: url('../../../assets/images/data-vis.jpg');
+                    background-image: url('../../../assets/icons/html.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img2 {
-                    background-image: url('../../../assets/images/education.jpg');
+                    background-image: url('../../../assets/icons/sass.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img3 {
-                    background-image: url('../../../assets/images/fitness.jpg');
+                    background-image: url('../../../assets/icons/react.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img4 {
-                    background-image: url('../../../assets/images/healthcare.jpg');
+                    background-image: url('../../../assets/icons/reactnative.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img5 {
-                    background-image: url('../../../assets/images/game-dev.webp');
+                    background-image: url('../../../assets/icons/nextjs.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
             }
         }
@@ -152,6 +163,7 @@
             .images {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                gap: 10px;
 
                 .hover {
                     opacity: 1;
@@ -163,24 +175,29 @@
                 }
 
                 .img1 {
-                    background-image: url('../../../assets/images/data-vis.jpg');
+                    background-image: url('../../../assets/icons/express.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img2 {
-                    background-image: url('../../../assets/images/education.jpg');
+                    background-image: url('../../../assets/icons/spring.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img3 {
-                    background-image: url('../../../assets/images/office.jpg');
+                    background-image: url('../../../assets/icons/dotnet.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img4 {
-                    background-image: url('../../../assets/images/featured-proj-petunia-540.jpg');
+                    background-image: url('../../../assets/icons/django.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img5 {
-                    background-image: url('../../../assets/images/featured-proj-franz.jpg');
+                    background-image: url('../../../assets/icons/laravel.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
             }
         }
@@ -213,16 +230,19 @@
                 }
 
                 .img1 {
-                    background-image: url('../../../assets/images/data-vis.jpg');
+                    background-image: url('../../../assets/icons/mysql.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img2 {
-                    background-image: url('../../../assets/images/education.jpg');
+                    background-image: url('../../../assets/icons/mongodb.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img3 {
-                    background-image: url('../../../assets/images/fitness.jpg');
+                    background-image: url('../../../assets/icons/neo4j.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img4 {
                     background-image: url('../../../assets/images/healthcare.jpg');
@@ -264,44 +284,54 @@
                 }
 
                 .img1 {
-                    background-image: url('../../../assets/images/data-vis.jpg');
+                    background-image: url('../../../assets/icons/git.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img2 {
-                    background-image: url('../../../assets/images/education.jpg');
+                    background-image: url('../../../assets/icons/github.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img3 {
-                    background-image: url('../../../assets/images/fitness.jpg');
+                    background-image: url('../../../assets/icons/docker.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img4 {
-                    background-image: url('../../../assets/images/healthcare.jpg');
+                    background-image: url('../../../assets/icons/kubernets.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img5 {
-                    background-image: url('../../../assets/images/game-dev.webp');
+                    background-image: url('../../../assets/icons/figma.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img6 {
-                    background-image: url('../../../assets/images/header-mob.jpg');
+                    background-image: url('../../../assets/icons/aws.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img7 {
-                    background-image: url('../../../assets/images/header-mob.jpg');
+                    background-image: url('../../../assets/icons/google.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img8 {
-                    background-image: url('../../../assets/images/header-mob.jpg');
+                    background-image: url('../../../assets/icons/kafka.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img9 {
-                    background-image: url('../../../assets/images/header-mob.jpg');
+                    background-image: url('../../../assets/icons/rabbitmq.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
                 .img10 {
-                    background-image: url('../../../assets/images/header-mob.jpg');
+                    background-image: url('../../../assets/icons/sonarqube.svg');
                     @include adjustImage();
+                    background-size: contain;
                 }
             }
         }

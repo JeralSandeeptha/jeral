@@ -14,6 +14,6 @@ gsap.to('.tech-stack-inner', {
         end: "bottom -100% ",
         pin: true,
         scrub: 1,
-        markers: true
+        // markers: true
     }
 });
