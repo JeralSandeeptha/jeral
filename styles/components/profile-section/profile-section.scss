@@ -4,62 +4,26 @@
 @import '../../colors/colors';
 @import '../../spacing/spacing';
 
-.navbar {
-    @include createDefaultContainer(100%, 9vh);
+.profile-section {
+    @include createDefaultContainer(100%, 10vh);
     padding:  $padding-lg;
     background-color: $white;
+    margin-bottom: 20px;
+    overflow: hidden;
 
     @media screen and (max-width: $breakpoint-sm) {
         padding: $padding-sm;
     }
 
-    .navbar-inner {
-        @include centerInnerContainer(100%, 9vh);
-        @include flexContainer(center, space-between);
+    .profile-section-inner {
+        @include centerInnerContainer(100%, 10vh);
 
-        a {
-            .logo {
-                font-family: $primary-font;
-                cursor: pointer;
-                font-weight: 600;
-                color: $black;
-    
-                .span {
-    
-                    @media screen and (max-width: $breakpoint-sm) {
-                        display: none;
-                    }
-                }
-            }
-        }
-
-        .nav-links {
-            @include flexContainer(center, space-between);
-            gap: 45px;
-            @media screen and (max-width: $breakpoint-md) {
-                gap: 30px;                
-            }
-            @media screen and (max-width: $breakpoint-sm) {
-                gap: 20px;                
-            }
-
-            .nav-link {
-                color: $black;
-                font-family: $primary-font;
-                font-family: Arial;
-                font-weight: 600;
-
-                &:hover {
-                    color: $gray;
-                }
-
-                @media screen and (max-width: $breakpoint-sm) {
-                    font-size: 14px;
-                }
-                @media screen and (max-width: 315px) {
-                    font-size: 12px;
-                }
-            }
+        .profile-para {
+            font-family: $primary-font;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: justify;
         }
     }
 }
