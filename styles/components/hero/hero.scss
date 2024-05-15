@@ -1,6 +1,7 @@
 @import '../../mixins/mixins';
 @import '../../spacing/spacing';
 @import '../../breakpoints/breakpoints';
+@import '../../colors/colors';
 
 .hero { 
     @include createDefaultContainer(100%, 75vh);

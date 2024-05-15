@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.navbar {
+  width: 100%;
+  min-height: 9vh;
+  padding: 0 1.5%;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .navbar {
+    padding: 0 3%;
+  }
+}
+.navbar .navbar-inner {
+  max-width: 100%;
+  min-height: 9vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar-inner a .logo {
+  font-family: "YgroSansBeta-Medium";
+  cursor: pointer;
+  font-weight: 600;
+  color: #000000;
+}
+@media screen and (max-width: 576px) {
+  .navbar .navbar-inner a .logo .span {
+    display: none;
+  }
+}
+.navbar .navbar-inner .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+}
+@media screen and (max-width: 768px) {
+  .navbar .navbar-inner .nav-links {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar .navbar-inner .nav-links {
+    gap: 20px;
+  }
+}
+.navbar .navbar-inner .nav-links .nav-link {
+  color: #000000;
+  font-family: "YgroSansBeta-Medium";
+  font-family: Arial;
+  font-weight: 600;
+}
+.navbar .navbar-inner .nav-links .nav-link:hover {
+  color: rgb(196, 196, 196);
+}
+@media screen and (max-width: 576px) {
+  .navbar .navbar-inner .nav-links .nav-link {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 315px) {
+  .navbar .navbar-inner .nav-links .nav-link {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=navbar.css.map */

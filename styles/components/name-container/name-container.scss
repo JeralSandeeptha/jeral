@@ -2,6 +2,7 @@
 @import '../../spacing/spacing';
 @import '../../breakpoints/breakpoints';
 @import '../../fonts/fonts';
+@import '../../colors/colors';
 
 .name-container {
     @include createDefaultContainer(100%, 20vh);

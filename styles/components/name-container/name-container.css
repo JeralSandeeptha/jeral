@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.name-container {
+  width: 100%;
+  min-height: 20vh;
+  padding: 0 1.5%;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .name-container {
+    padding: 0 3%;
+  }
+}
+.name-container .name-container-inner {
+  max-width: 100%;
+  min-height: 20vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+.name-container .name-container-inner .letter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name-container .name-container-inner .letter .name {
+  width: 100%;
+  height: 100%;
+  font-size: 150px;
+  font-family: "YgroSansBeta-Medium";
+}
+@media screen and (max-width: 576px) {
+  .name-container .name-container-inner .letter .name {
+    font-size: 100px;
+  }
+}/*# sourceMappingURL=name-container.css.map */

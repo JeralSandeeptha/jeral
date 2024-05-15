@@ -1,0 +1,21 @@
+.hero {
+  width: 100%;
+  min-height: 75vh;
+  padding: 0 1.5%;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .hero {
+    padding: 0 3%;
+  }
+}
+.hero .hero-inner {
+  max-width: 100%;
+  min-height: 75vh;
+  margin: 0 auto;
+  background-image: url("../../../assets/images/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
+}/*# sourceMappingURL=hero.css.map */
