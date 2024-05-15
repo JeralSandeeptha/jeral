@@ -240,7 +240,7 @@
                     background-size: contain;
                 }
                 .img3 {
-                    background-image: url('../../../assets/icons/neo4j.svg');
+                    background-image: url('../../../assets/icons/postgresql.svg');
                     @include adjustImage();
                     background-size: contain;
                 }
@@ -273,6 +273,7 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
                 grid-template-rows: 1fr 1fr;
+                grid-gap: 10px;
 
                 .hover {
                     opacity: 1;
@@ -314,7 +315,7 @@
                     background-size: contain;
                 }
                 .img7 {
-                    background-image: url('../../../assets/icons/google.svg');
+                    background-image: url('../../../assets/icons/redis.svg');
                     @include adjustImage();
                     background-size: contain;
                 }
@@ -330,6 +331,56 @@
                 }
                 .img10 {
                     background-image: url('../../../assets/icons/sonarqube.svg');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img11 {
+                    background-image: url('../../../assets/icons/prometheus.svg');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img12 {
+                    background-image: url('../../../assets/icons/google.svg');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img13 {
+                    background-image: url('../../../assets/icons/neo4j.svg');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img14 {
+                    background-image: url('../../../assets/icons/');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img15 {
+                    background-image: url('../../../assets/icons/');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img16 {
+                    background-image: url('../../../assets/icons/');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img17 {
+                    background-image: url('../../../assets/icons/');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img18 {
+                    background-image: url('../../../assets/icons/');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img19 {
+                    background-image: url('../../../assets/icons/');
+                    @include adjustImage();
+                    background-size: contain;
+                }
+                .img20 {
+                    background-image: url('../../../assets/icons/');
                     @include adjustImage();
                     background-size: contain;
                 }

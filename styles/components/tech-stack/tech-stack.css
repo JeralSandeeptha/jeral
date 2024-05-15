@@ -254,7 +254,7 @@
   background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack4 .images .img3 {
-  background-image: url("../../../assets/icons/neo4j.svg");
+  background-image: url("../../../assets/icons/postgresql.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -291,6 +291,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
 }
 .tech-stack .tech-stack-inner .stack5 .images .hover {
   opacity: 1;
@@ -342,7 +343,7 @@
   background-size: contain;
 }
 .tech-stack .tech-stack-inner .stack5 .images .img7 {
-  background-image: url("../../../assets/icons/google.svg");
+  background-image: url("../../../assets/icons/redis.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -364,6 +365,76 @@
 }
 .tech-stack .tech-stack-inner .stack5 .images .img10 {
   background-image: url("../../../assets/icons/sonarqube.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img11 {
+  background-image: url("../../../assets/icons/prometheus.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img12 {
+  background-image: url("../../../assets/icons/google.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img13 {
+  background-image: url("../../../assets/icons/neo4j.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img14 {
+  background-image: url("../../../assets/icons/");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img15 {
+  background-image: url("../../../assets/icons/");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img16 {
+  background-image: url("../../../assets/icons/");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img17 {
+  background-image: url("../../../assets/icons/");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img18 {
+  background-image: url("../../../assets/icons/");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img19 {
+  background-image: url("../../../assets/icons/");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+}
+.tech-stack .tech-stack-inner .stack5 .images .img20 {
+  background-image: url("../../../assets/icons/");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
