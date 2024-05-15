@@ -5,9 +5,8 @@
 .tech-stack {
   width: 500%;
   min-height: 100vh;
-  background-color: #000000;
   position: relative;
-  background-image: url("../../../assets/images/tech-stack.jpg");
+  background-image: url("../../../assets/images/tech-stack.jpeg");
 }
 @media screen and (max-width: 768px) {
   .tech-stack {
