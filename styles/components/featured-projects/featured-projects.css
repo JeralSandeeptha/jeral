@@ -55,10 +55,10 @@
   transition: all 0.3s ease;
 }
 .featured .featured-inner .featured-projects .project:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .featured .featured-inner .featured-projects .project:nth-child(1) {
-  background-image: url("../../../assets/images/featured-proj-petunia-540.jpg");
+  background-image: url("../../../assets/images/featured-proj-petunia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
