@@ -1,0 +1,39 @@
+@import '../../breakpoints/breakpoints';
+@import '../../colors/colors';
+@import '../../fonts/fonts';
+@import '../../mixins/mixins';
+@import '../../spacing/spacing';
+
+.text-slider {
+    @include createDefaultContainer(100%, 85vh);
+    // background-color: red;
+    overflow: hidden;
+    background-color: $black;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+    }
+
+    .text-slider-inner {
+        @include centerInnerContainer(100%, 78vh);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+        .text-slider-inner-text {
+            font-size: 120px;
+            white-space: nowrap;
+            transform: scaleY(5);
+            font-family: $primary-font;
+            color: $white;
+
+            .emoji {
+                
+            }
+
+            @media screen and (max-width: $breakpoint-md) {
+                // display: none;
+            }
+        }
+    }
+}
