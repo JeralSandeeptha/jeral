@@ -1,0 +1,49 @@
+@import '../../mixins/mixins';
+@import '../../breakpoints/breakpoints';
+@import '../../fonts/fonts';
+@import '../../colors/colors';
+@import '../../spacing/spacing';
+
+.posts {
+    @include createDefaultContainer(100%, 20vh);
+    padding: $padding-lg;
+    overflow: hidden;
+    padding-bottom: 20px;
+    background-color: $white;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+        padding-bottom: 20px;
+    }
+
+    .posts-inner {
+        @include centerInnerContainer(100%, 20vh);
+        // @include gridContainer(2, 1);
+        gap: 0px 20px;
+
+        @media screen and (max-width: $breakpoint-sm){
+            gap: 0px 20px;
+        }
+
+        .post {
+            background-color: rgb(207, 207, 207);
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            border-radius: 0.25rem;
+            min-height: 200px;
+
+            .title {
+                font-family: $primary-font;
+                color: white;
+            }
+    
+            .content {
+                width: 200px;
+            }
+    
+            .more-btn {
+    
+            }
+        }
+    }
+}
