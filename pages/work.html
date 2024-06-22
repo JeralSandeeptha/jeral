@@ -105,7 +105,59 @@
     crossorigin="anonymous"></script>
     <script src="../js/functions/setYear.js"></script>
     <script src="../js/functions/lenis-initialize.js"></script>
-    <script src="../js/api/getPosts.js"></script>
+    <!-- <script src="../js/api/getPosts.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            // Function to fetch posts using GROQ query
+            function fetchPosts() {
+                // Replace with your actual GROQ query
+                var groqQuery = `*[_type == 'post']{_id, title, description, slug, coverImage, createDate}`;
+
+                // Fetch data from Sanity.io using fetch API
+                fetch('https://m8cpirme.api.sanity.io/v1/data/query/production', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query: `*[_type == 'post']{_id, title, description, slug, coverImage, createDate}`
+                    }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data.result);
+                    // Iterate over fetched data and generate HTML for each post
+                    data.result.forEach(post => {
+                        var postHTML = '<div class="post">';
+                        postHTML += '<h2>' + post.title + '</h2>';
+                        postHTML += '<h5>' + new Date(post.createDate).toLocaleDateString() + '</h5>';
+                        postHTML += '<h6>' + post.slug.current + '</h6>';
+                        
+                        // Check if cover image exists and add it to HTML
+                        if (post.coverImage && post.coverImage.asset._ref) {
+                            var assetRef = post.coverImage.asset._ref;
+                            var imageUrl = `https://cdn.sanity.io/images/m8cpirme/production/${assetRef.split('-')[1]}-${assetRef.split('-')[2]}.jpg`;
+                            postHTML += `<img src="${imageUrl}" alt="Cover Image">`;
+                        }
+
+                        console.log(imageUrl); 
+                
+                        postHTML += '<p>' + post.description + '</p>';
+                        postHTML += '</div>';
+                
+                        // Append post HTML to posts-inner div
+                        $('#posts-inner').append(postHTML);
+                    });
+                })
+                .catch(error => console.error('Error fetching posts:', error));
+            }
+
+            // Call fetchPosts function when document is ready
+            fetchPosts();
+        });
+    </script>
     
 </body>
 </html>
