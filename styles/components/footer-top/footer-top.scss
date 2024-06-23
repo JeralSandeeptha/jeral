@@ -6,8 +6,9 @@
 
 .footer-top {
     @include createDefaultContainer(100%, 100vh);
-    background-image: url('../../../assets/images/office.jpg');
+    background-image: url('../../../assets/images/office1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: $black;
     background-position: center;
 }

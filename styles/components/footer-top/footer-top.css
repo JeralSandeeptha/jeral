@@ -5,8 +5,9 @@
 .footer-top {
   width: 100%;
   min-height: 100vh;
-  background-image: url("../../../assets/images/office.jpg");
+  background-image: url("../../../assets/images/office1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000000;
   background-position: center;
 }/*# sourceMappingURL=footer-top.css.map */
