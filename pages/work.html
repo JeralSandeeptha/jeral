@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles/components/posts/posts.css">
     <link rel="stylesheet" href="../styles/components/footer-lower/footer-lower.css">
     <link rel="stylesheet" href="../styles/components/footer-upper/footer-upper.css">
+    <link rel="stylesheet" href="../styles/components/work-header/work-header.css">
     <title>Work</title>
     <meta name="theme-color" content="#000000">
     <link rel="icon" href="../assets/images/logo.jpg" type="image/x-icon">
@@ -33,10 +34,17 @@
         </div>
     </div>
 
-    <!-- posts section -->
-    <div class="posts">
-        <div class="posts-inner" id="posts-inner">
+    <!-- header for works -->
+    <div class="jeral work-header">
+        <div class="jeral work-header-inner">
+            <h1 class="jeral work-header-title">My Projects</h1>
+        </div>    
+    </div>
 
+    <!-- posts section -->
+    <div class="posts jeral">
+        <div class="posts-inner jeral" id="posts-inner">
+            
         </div>
     </div>
 
@@ -127,24 +135,24 @@
                 })
                 .then(response => response.json())
                 .then(data => {
-                    console.log(data.result);
+                    //console.log(data.result);
                     // Iterate over fetched data and generate HTML for each post
                     data.result.forEach(post => {
-                        var postHTML = '<div class="post">';
-                        postHTML += '<h2>' + post.title + '</h2>';
-                        postHTML += '<h5>' + new Date(post.createDate).toLocaleDateString() + '</h5>';
-                        postHTML += '<h6>' + post.slug.current + '</h6>';
+                        var postHTML = '<div class="jeral post">';
+                        postHTML += '<h2 class="jeral title">' + post.title + '</h2>';
+                        postHTML += '<h5 class="jeral date">' + new Date(post.createDate).toLocaleDateString() + '</h5>';
+                        postHTML += '<h6 class="jeral slug">' + post.slug.current + '</h6>';
                         
                         // Check if cover image exists and add it to HTML
                         if (post.coverImage && post.coverImage.asset._ref) {
                             var assetRef = post.coverImage.asset._ref;
                             var imageUrl = `https://cdn.sanity.io/images/m8cpirme/production/${assetRef.split('-')[1]}-${assetRef.split('-')[2]}.jpg`;
-                            postHTML += `<img src="${imageUrl}" alt="Cover Image">`;
+                            postHTML += `<img src="${imageUrl}" alt="Cover Image" class="jeral postImage">`;
                         }
 
-                        console.log(imageUrl); 
+                        //console.log(imageUrl); 
                 
-                        postHTML += '<p>' + post.description + '</p>';
+                        postHTML += '<p class="jeral description">' + post.description + '</p>';
                         postHTML += '</div>';
                 
                         // Append post HTML to posts-inner div

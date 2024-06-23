@@ -1,0 +1,54 @@
+@import '../../mixins/mixins';
+@import '../../breakpoints/breakpoints';
+@import '../../fonts/fonts';
+@import '../../colors/colors';
+@import '../../spacing/spacing';
+
+.work-header {
+    @include createDefaultContainer(100%, 20vh);
+    padding: $padding-lg;
+    overflow: hidden;
+    padding-bottom: 20px;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: $padding-sm;
+        padding-bottom: 20px;
+    }
+
+    .work-header-inner {
+        @include centerInnerContainer(100%, 20vh);
+        gap: 0px 20px;
+        padding: $padding-lg;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        @media screen and (max-width: $breakpoint-sm){
+            gap: 0px 20px;
+            padding: $padding-sm;
+        }
+
+        .work-header-title {
+            cursor: pointer;
+            font-size: 150px;
+            padding: 40px 0;
+            font-family: $primary-font;
+            background-color: $black;
+            width: 100%;
+            color: $white;
+            margin-top: 50px;
+            text-align: center;
+
+            @media screen and (max-width: $breakpoint-lg){
+                font-size: 120px;
+            }
+            @media screen and (max-width: $breakpoint-md){
+                font-size: 100px;
+            }
+            @media screen and (max-width: $breakpoint-sm){
+                font-size: 50px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

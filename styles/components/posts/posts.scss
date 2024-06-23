@@ -18,7 +18,6 @@
 
     .posts-inner {
         @include centerInnerContainer(100%, 20vh);
-        // @include gridContainer(2, 1);
         gap: 0px 20px;
 
         @media screen and (max-width: $breakpoint-sm){
@@ -26,7 +25,7 @@
         }
 
         .post {
-            background-color: rgb(207, 207, 207);
+            background-color: $white;
             margin-bottom: 20px;
             padding: 10px 20px;
             border-radius: 0.25rem;
@@ -34,15 +33,30 @@
 
             .title {
                 font-family: $primary-font;
-                color: white;
+                color: $black;
+                font-size: 40px;
+                margin-bottom: 10px;
             }
     
-            .content {
-                width: 200px;
+            .description {
+                font-family: $primary-font;
+                color: $black;
+                text-align: justify;
+                margin-top: 10px;
+                line-height: 25px;
             }
-    
-            .more-btn {
-    
+
+            .date {
+                font-family: $primary-font;
+                color: $black;
+                font-size: 18px;
+            }
+
+            .slug {
+                font-family: $primary-font;
+                color: $black;
+                font-size: 13px;
+                margin-bottom: 10px;
             }
         }
     }

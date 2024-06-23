@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.work-header {
+  width: 100%;
+  min-height: 20vh;
+  padding: 0 1.5%;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .work-header {
+    padding: 0 3%;
+    padding-bottom: 20px;
+  }
+}
+.work-header .work-header-inner {
+  max-width: 100%;
+  min-height: 20vh;
+  margin: 0 auto;
+  gap: 0px 20px;
+  padding: 0 1.5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 576px) {
+  .work-header .work-header-inner {
+    gap: 0px 20px;
+    padding: 0 3%;
+  }
+}
+.work-header .work-header-inner .work-header-title {
+  cursor: pointer;
+  font-size: 150px;
+  padding: 40px 0;
+  font-family: "YgroSansBeta-Medium";
+  background-color: #000000;
+  width: 100%;
+  color: #ffffff;
+  margin-top: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .work-header .work-header-inner .work-header-title {
+    font-size: 120px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .work-header .work-header-inner .work-header-title {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .work-header .work-header-inner .work-header-title {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=work-header.css.map */

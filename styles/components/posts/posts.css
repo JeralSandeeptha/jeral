@@ -28,7 +28,7 @@
   }
 }
 .posts .posts-inner .post {
-  background-color: rgb(207, 207, 207);
+  background-color: #ffffff;
   margin-bottom: 20px;
   padding: 10px 20px;
   border-radius: 0.25rem;
@@ -36,8 +36,25 @@
 }
 .posts .posts-inner .post .title {
   font-family: "YgroSansBeta-Medium";
-  color: white;
+  color: #000000;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
-.posts .posts-inner .post .content {
-  width: 200px;
+.posts .posts-inner .post .description {
+  font-family: "YgroSansBeta-Medium";
+  color: #000000;
+  text-align: justify;
+  margin-top: 10px;
+  line-height: 25px;
+}
+.posts .posts-inner .post .date {
+  font-family: "YgroSansBeta-Medium";
+  color: #000000;
+  font-size: 18px;
+}
+.posts .posts-inner .post .slug {
+  font-family: "YgroSansBeta-Medium";
+  color: #000000;
+  font-size: 13px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=posts.css.map */
