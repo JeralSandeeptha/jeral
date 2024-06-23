@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "YgroSansBeta-Medium";
+  src: url("https://assets.website-files.com/6419c9fdaa2ea509caaed54d/6419cf5e61ea1714903c66ed_YgroSansBeta-Medium.woff2");
+}
+.mobile-tech-stack {
+  width: 100%;
+  min-height: 10vh;
+  padding: 0 1.5%;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 576px) {
+  .mobile-tech-stack {
+    padding: 0 3%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-tech-stack {
+    display: none;
+  }
+}
+.mobile-tech-stack .mobile-tech-stack-inner {
+  max-width: 100%;
+  min-height: 10vh;
+  margin: 0 auto;
+}
+.mobile-tech-stack .mobile-tech-stack-inner .mobile-tech-stack-div {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.mobile-tech-stack .mobile-tech-stack-inner .mobile-tech-stack-div .header {
+  margin-bottom: 20px;
+}
+.mobile-tech-stack .mobile-tech-stack-inner .mobile-tech-stack-div .header .stack-header {
+  font-family: "YgroSansBeta-Medium";
+  font-size: 25px;
+}
+@media screen and (max-width: 576px) {
+  .mobile-tech-stack .mobile-tech-stack-inner .mobile-tech-stack-div .header .stack-header {
+    font-size: 20px;
+  }
+}
+.mobile-tech-stack .mobile-tech-stack-inner .mobile-tech-stack-div .images .hover {
+  width: 50px;
+}/*# sourceMappingURL=mobile-tech-stack.css.map */
