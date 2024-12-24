@@ -5,30 +5,71 @@
         <loc>https://jeral.onrender.com/</loc>
         <lastmod>2024-12-17</lastmod> 
         <priority>1.00</priority>
+        <changefreq>daily</changefreq>
     </url>
 
     <url>
         <loc>https://jeral.onrender.com/pages/work.html</loc>
         <lastmod>2024-12-17</lastmod>
         <priority>0.80</priority>
+        <changefreq>daily</changefreq>
     </url>
 
     <url>
         <loc>https://jeral.onrender.com/pages/about.html</loc>
         <lastmod>2024-12-17</lastmod>
         <priority>0.80</priority>
+        <changefreq>daily</changefreq>
     </url>
 
     <url>
         <loc>https://jeral.onrender.com/pages/contact.html</loc>
         <lastmod>2024-12-17</lastmod>
         <priority>0.80</priority>
+        <changefreq>daily</changefreq>
     </url>
 
     <url>
         <loc>https://jeral.onrender.com/pages/lab.html</loc>
         <lastmod>2024-12-17</lastmod>
         <priority>0.80</priority>
+        <changefreq>daily</changefreq>
+    </url>
+
+    <url>
+        <loc>http://jeral.onrender.com/../index.html</loc>
+        <changefreq>daily</changefreq>
+        <lastmod>2024-12-24</lastmod>
+        <priority>1.00</priority>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://jeral.onrender.com/work.html</loc>
+        <changefreq>daily</changefreq>
+        <lastmod>2024-12-24</lastmod>
+        <priority>0.80</priority>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://jeral.onrender.com/about.html</loc>
+        <changefreq>daily</changefreq>
+        <lastmod>2024-12-24</lastmod>
+        <priority>0.80</priority>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://jeral.onrender.com/lab.html</loc>
+        <changefreq>daily</changefreq>
+        <lastmod>2024-12-24</lastmod>
+        <priority>0.80</priority>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://jeral.onrender.com/contact.html</loc>
+        <changefreq>daily</changefreq>
+        <lastmod>2024-12-24</lastmod>
+        <priority>0.80</priority>
+        <changefreq>daily</changefreq>
     </url>
 
 </urlset>
